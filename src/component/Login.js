@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
 
 class LoginPage extends Component {
     render() {
@@ -6,16 +7,16 @@ class LoginPage extends Component {
             <div>
                 <h1>Login Page</h1>
                 <form>
-                    <div>  
+                    <div>
                         <label htmlFor="email">Email :</label>
-                        <input type="text" placeholder="Enter your email" required />
+                        <input type="email" placeholder="Enter your email"  required autoFocus/>
                     </div>
-                   <div>
+                    <div>
                         <label htmlFor="password">Password :</label>
-                        <input type="password" placeholder="Enter your password" required />
-                   </div>
+                        <input type="password" placeholder="Enter password"  required />
+                    </div>
                     <button>Submit</button>
-                    <p>Already have an account </p>
+                    <p>Already have an account <a href="/Signin">Sign in</a></p>
 
 
 
