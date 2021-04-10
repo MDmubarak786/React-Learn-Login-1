@@ -24,11 +24,36 @@ class LoginPage extends Component {
         return (
             <div className="split">
                 <div className="split left login">
-                  
+
                     <form onSubmit={this.handle}>
                         <div className="Email">
                             <h1>Login Page</h1>
                             <h3>Welcome Back</h3>
+                            <div className="space">
+                                <img
+                                    className="space-icons"
+                                    onClick={() => console.log("Facebook link is woring")}
+                                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"
+                                    alt="fb"
+                                    width="40px"
+                                    height="40px" />
+                                <img
+                                    className="space-icons"
+                                    onClick={() => console.log("Google link is woring")}
+                                    src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-256.png"
+                                    alt="fb"
+                                    width="40px"
+                                    height="40px" />
+                                <img
+                                    className="space-icons"
+                                    onClick={() => console.log("LinkedIN link is woring")}
+                                    src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-256.png"
+                                    alt="fb"
+                                    width="49px"
+                                    height="50px" />
+
+                            </div>
+                            <h5 className="or">or</h5>
                             {/* <h3>Email :</h3> */}
                             <input
                                 id='email'

@@ -28,7 +28,11 @@
     padding: 12px 45px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: transform 80ms ease-in;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 .split {
@@ -60,6 +64,7 @@
 
 .blur {
     background: rgba(255, 255, 255, 0.2);
+    /* this function used for blur the content used in login right side */
     backdrop-filter: blur(20px);
     width: 90%;
     height: 95vh;
@@ -74,7 +79,6 @@
 
 #email,
 #password {
-    color: black;
     font-weight: bold;
     font-size: 20px;
     background-color: #eee;
@@ -86,4 +90,23 @@
 
 .signin-link-text {
     color: blueviolet;
+}
+
+.space {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 10px; */
+    padding-bottom: 2px;
+    padding-top: 25px;
+    transition: 0.3s;
+}
+
+.space :hover {
+    opacity: 0.7;
+}
+
+.or {
+    padding: 5px;
 }
